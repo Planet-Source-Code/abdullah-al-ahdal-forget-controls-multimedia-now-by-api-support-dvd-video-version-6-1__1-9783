@@ -1,0 +1,32 @@
+LIBRARY   "Engine.dll"
+
+
+;CODE      PRELOAD MOVEABLE DISCARDABLE
+;DATA      PRELOAD SINGLE
+
+EXPORTS
+
+CloseMPEG				@1	PRIVATE
+GetCurrentMPEGPos			@2	PRIVATE
+GetPercent				@3	PRIVATE
+GetStatusMPEG				@4	PRIVATE
+GetTotalframes				@5	PRIVATE
+GetTotalTimeByms			@6	PRIVATE
+MoveMPEG				@7	PRIVATE
+OpenMPEG				@8	PRIVATE
+PauseMPEG				@9	PRIVATE
+PlayMPEG				@10	PRIVATE
+PutMPEG					@11	PRIVATE
+ResumeMPEG				@12	PRIVATE
+SetAutoRepeat				@13	PRIVATE
+StopMPEG				@14	PRIVATE
+GetDefaultDevice		@15	PRIVATE
+SetDefaultDevice		@16	PRIVATE
+GetFramesPerSecond		@17	PRIVATE
+AreMPEGAtEnd			@18	PRIVATE
+
+
+
+
+
+
